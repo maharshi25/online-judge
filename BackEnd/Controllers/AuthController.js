@@ -1,7 +1,7 @@
 import { hash, compare } from "bcrypt";
 import pkg from "jsonwebtoken";
 const { sign } = pkg;
-import UserModel from "../Models/User.js";
+import UserModel from "../Models/user.js";
 import dotenv from "dotenv";
 dotenv.config();
 
